@@ -1,0 +1,10 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+	**Reverse engineering a site, so to speak, to essentially recreate the code that built it in the first place.
+	**Organizing and creating a site tree for better organization.
+  * What has been easy?
+	**So far, a lot has been easy, as I self-taught myself HTML a while ago.
+  * What has been difficult?
+	**Not so much so far, but I anticipate more issues around the time of JS.
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+	**By using proper organization to outline a tree and seeing where things go from there.
