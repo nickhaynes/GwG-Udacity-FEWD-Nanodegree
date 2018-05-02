@@ -29,8 +29,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    6     | Exercise: Article to Mockup|  Completed  | April 25, 2018       |
 |    7     | CSS Syntax            	    |  Completed  | April 26, 2018       |
 |    8     | CSS Syntax Problem Set	    |  Completed  | May 1, 2018          |
-|    9     | Nanodegree Orientation	    |_In Progress_| _In Progress_                     |
-|    10    | How to Write Code Faster   |             |                      |
+|    9     | How to Write Code Faster   |_In Progress_| _In Progress_        |
+|    10    | Lab: Animal Trading Cards  |             |                      |
 |    11    | Why Responsive?       	    |             |                      |
 |    12    | Starting Small        	    |             |                      |
 |    13    | Building Up           	    |             |                      |
