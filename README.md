@@ -26,10 +26,10 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    3     | Learning Online & Getting Help	  |  Completed  | April 24, 2018       |
 |    4     | HTML Syntax           	    |  Completed  | April 25, 2018       |
 |    5     | HTML Syntax Problem Set	  |  Completed  | April 25, 2018       |
-|    6     | Exercise: Article to Mockup|  Completed  | April 25, 2018        |
-|    7     | CSS Syntax            	    |  Completed  | April 26, 2018        |
-|    8     | CSS Syntax Problem Set	    |_In Progress_| _In Progress_                     |
-|    9     | Nanodegree Orientation	    |             |                      |
+|    6     | Exercise: Article to Mockup|  Completed  | April 25, 2018       |
+|    7     | CSS Syntax            	    |  Completed  | April 26, 2018       |
+|    8     | CSS Syntax Problem Set	    |  Completed  | May 1, 2018          |
+|    9     | Nanodegree Orientation	    |_In Progress_| _In Progress_                     |
 |    10    | How to Write Code Faster   |             |                      |
 |    11    | Why Responsive?       	    |             |                      |
 |    12    | Starting Small        	    |             |                      |
