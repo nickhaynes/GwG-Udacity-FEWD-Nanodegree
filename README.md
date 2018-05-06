@@ -39,4 +39,4 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    16    | Writing READMEs            |_In Progress_| _In Progress_        |
 | Project  | Build a Portfolio Site	    |             |                      |
 
-<sup>1</sup> Subjects completed March 2018 as part of Udacity's _Responsive Web Design Fundamentals_ course.
+<sup>1</sup> _Subjects completed March 2018 as part of Udacity's_ Responsive Web Design Fundamentals _course._
