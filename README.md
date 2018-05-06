@@ -30,11 +30,12 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    7     | CSS Syntax            	    |  Completed  | April 26, 2018       |
 |    8     | CSS Syntax Problem Set	    |  Completed  | May 1, 2018          |
 |    9     | How to Write Code Faster   |  Completed  | May 2, 2018          |
-|    10    | Lab: Animal Trading Cards  |_In Progress_| _In Progress_        |
-|    11    | Why Responsive?       	    |             |                      |
-|    12    | Starting Small        	    |             |                      |
-|    13    | Building Up           	    |             |                      |
-|    14    | Common Responsive Patterns |             |                      |
-|    15    | Optimizations         	    |             |                      |
-|    16    | Writing READMEs            |             |                      |
+|    10    | Lab: Animal Trading Cards  |  Completed  | May 6, 2018          |
+|    11    | Why Responsive?       	    |  Completed<sup>1</sup> | May 6, 2018          |
+|    12    | Starting Small        	    |  Completed<sup>1</sup> | May 6, 2018          |
+|    13    | Building Up           	    |  Completed<sup>1</sup> | May 6, 2018          |
+|    14    | Common Responsive Patterns |  Completed<sup>1</sup> | May 6, 2018          |
+|    15    | Optimizations         	    |  Completed<sup>1</sup> | May 6, 2018          |
+|    16    | Writing READMEs            |_In Progress_| _In Progress_        |
 | Project  | Build a Portfolio Site	    |             |                      |
+<sup>1</sup> Subjects completed March 2018 as part of Udacity's _Responsive Web Design Fundamentals_ course.
