@@ -54,8 +54,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    3     | Conditionals           	  |  Completed  | May 14, 2018         |
 |    4     | Loops                	    |  Completed  | May 14, 2018         |
 |    5     | Functions              	  |  Completed  | May 14, 2018         |
-|    6     | Arrays                     |_In Progress_| _In Progress_        |
-|    7     | Objects              	    |             |                      |
+|    6     | Arrays                     |  Completed  | May 15, 2018         |
+|    7     | Objects              	    |_In Progress_| _In Progress_        |
 |    8     | Syntax               	    |             |                      |
 |    9     | Shell Workshop             |             |                      |
 |    10    | What is Version Control?   |             |                      |
