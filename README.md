@@ -53,8 +53,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    2     | Data Types & Variables 	  |  Completed  | May 13, 2018         |
 |    3     | Conditionals           	  |  Completed  | May 14, 2018         |
 |    4     | Loops                	    |  Completed  | May 14, 2018         |
-|    5     | Functions              	  |_In Progress_| _In Progress_        |
-|    6     | Arrays                     |             |                      |
+|    5     | Functions              	  |  Completed  | May 14, 2018         |
+|    6     | Arrays                     |_In Progress_| _In Progress_        |
 |    7     | Objects              	    |             |                      |
 |    8     | Syntax               	    |             |                      |
 |    9     | Shell Workshop             |             |                      |
