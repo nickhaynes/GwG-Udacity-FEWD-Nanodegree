@@ -51,9 +51,9 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |:--------:|:---------------------------:|:-----------:|:--------------------:|
 |    1     | What is JavaScript?  	    |  Completed  | May 12, 2018         |
 |    2     | Data Types & Variables 	  |  Completed  | May 13, 2018         |
-|    3     | Conditionals           	  |_In Progress_| _In Progress_        |
-|    4     | Loops                	    |             |                      |
-|    5     | Functions              	  |             |                      |
+|    3     | Conditionals           	  |  Completed  | May 14, 2018         |
+|    4     | Loops                	    |  Completed  | May 14, 2018         |
+|    5     | Functions              	  |_In Progress_| _In Progress_        |
 |    6     | Arrays                     |             |                      |
 |    7     | Objects              	    |             |                      |
 |    8     | Syntax               	    |             |                      |
