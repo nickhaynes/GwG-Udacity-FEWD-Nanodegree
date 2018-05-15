@@ -55,8 +55,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    4     | Loops                	    |  Completed  | May 14, 2018         |
 |    5     | Functions              	  |  Completed  | May 14, 2018         |
 |    6     | Arrays                     |  Completed  | May 15, 2018         |
-|    7     | Objects              	    |_In Progress_| _In Progress_        |
-|    8     | Syntax               	    |             |                      |
+|    7     | Objects              	    |  Completed  | May 15, 2018         |
+|    8     | Syntax               	    |_In Progress_| _In Progress_        |
 |    9     | Shell Workshop             |             |                      |
 |    10    | What is Version Control?   |             |                      |
 |    11    | Create a Git Repo          |             |                      |
