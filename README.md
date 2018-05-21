@@ -57,10 +57,10 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    6     | Arrays                     |  Completed  | May 15, 2018         |
 |    7     | Objects              	    |  Completed  | May 15, 2018         |
 |    8     | Syntax               	    |  Completed  | May 17, 2018         |
-|    9     | Shell Workshop             |_In Progress_| _In Progress_        |
-|    10    | What is Version Control?   |_In Progress_| _In Progress_        |
-|    11    | Create a Git Repo          |             |                      |
-|    12    | Review a Repo's History    |             |                      |
+|    9     | Shell Workshop             |  Completed  | May 21, 2018         |
+|    10    | What is Version Control?   |  Completed  | May 21, 2018         |
+|    11    | Create a Git Repo          |  Completed  | May 21, 2018         |
+|    12    | Review a Repo's History    |_In Progress_| _In Progress_        |
 |    13    | Add Commits to a Repo 	    |             |                      |
 |    14    | Tagging, Branching, and Merging|             |                      |
 |    15    | Undoing Changes       	    |             |                      |
