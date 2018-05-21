@@ -1,7 +1,7 @@
 ## Memory Game (Area 2 Final Project, Udacity Front-End Nanodegree Program)
 
 ### What Will I Build?
-The Memory Game Project is all about demonstrating your mastery of HTML, CSS, and JavaScript. You’ll build a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!
+The Memory Game Project is all about demonstrating my mastery of HTML, CSS, and JavaScript. I’ll build a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!
 
 ### How the Game Works
 
@@ -18,7 +18,7 @@ The game ends once all cards have been correctly matched.
 
 ### Game Functionality
 
-The real-life game, players flip over cards to locate the pairs that match The goal is to recreate this effect in your project. There are a couple of interactions that you'll need to handle:
+The real-life game, players flip over cards to locate the pairs that match. The goal is to recreate this effect in my project. There are a couple of interactions that I'll need to handle:
 
 * Flipping cards
 * What happens when cards match
