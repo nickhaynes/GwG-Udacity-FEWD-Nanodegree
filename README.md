@@ -64,11 +64,11 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    13    | Add Commits to a Repo 	    |  Completed  | May 22, 2018         |
 |    14    | Tagging, Branching, and Merging|  Completed  | May 22, 2018         |
 |    15    | Undoing Changes       	    |  Completed  | May 22, 2018         |
-|    16    | Working With Remotes       |_In Progress_| _In Progress_        |
-|    17    | Working on Another Developer's Repository|             |                      |
-|    18    | Staying in Sync with a Remote Repository|             |                      |
+|    16    | Working With Remotes       |  Completed  | May 22, 2018         |
+|    17    | Working on Another Developer's Repository|  Completed  | May 22, 2018         |
+|    18    | Staying in Sync with a Remote Repository|  Completed  | May 22, 2018         |
 |    19    | The Document Object Model  |  Completed  | May 21, 2018         |
-|    20    | Creating Content with JavaScript|             |                      |
+|    20    | Creating Content with JavaScript|_In Progress_| _In Progress_        |
 |    21    | Working with Browser Events|                      |
 |    22    | Lab: Pixel Art Maker  	    |             |                      |
 |    23    | Performance                |             |                      |
