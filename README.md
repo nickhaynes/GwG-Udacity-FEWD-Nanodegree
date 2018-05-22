@@ -60,9 +60,9 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    9     | Shell Workshop             |  Completed  | May 21, 2018         |
 |    10    | What is Version Control?   |  Completed  | May 21, 2018         |
 |    11    | Create a Git Repo          |  Completed  | May 21, 2018         |
-|    12    | Review a Repo's History    |_In Progress_| _In Progress_        |
-|    13    | Add Commits to a Repo 	    |             |                      |
-|    14    | Tagging, Branching, and Merging|             |                      |
+|    12    | Review a Repo's History    |  Completed  | May 21, 2018         |
+|    13    | Add Commits to a Repo 	    |  Completed  | May 22, 2018         |
+|    14    | Tagging, Branching, and Merging|_In Progress_| _In Progress_        |
 |    15    | Undoing Changes       	    |             |                      |
 |    16    | Working With Remotes       |             |                      |
 |    17    | Working on Another Developer's Repository|             |                      |
