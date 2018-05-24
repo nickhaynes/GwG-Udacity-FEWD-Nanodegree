@@ -69,7 +69,7 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    18    | Staying in Sync with a Remote Repository|  Completed  | May 22, 2018         |
 |    19    | The Document Object Model  |  Completed  | May 21, 2018         |
 |    20    | Creating Content with JavaScript|  Completed  | May 22, 2018         |
-|    21    | Working with Browser Events|_In Progress_| _In Progress_        |
-|    22    | Lab: Pixel Art Maker  	    |             |                      |
-|    23    | Performance                |             |                      |
-| Project  | Memory Game          	    |             |                      |
+|    21    | Working with Browser Events|  Completed  | May 22, 2018         |
+|    22    | Lab: Pixel Art Maker  	    |  Completed  | May 23, 2018         |
+|    23    | Performance                |  Completed  | May 23, 2018         |
+| Project  | Memory Game          	    |_In Progress_| _In Progress_        |
