@@ -1,40 +1,20 @@
-## Memory Game (Area 2 Final Project, Udacity Front-End Nanodegree Program)
+# Memory Game Project
 
-### What Will I Build?
-The Memory Game Project is all about demonstrating my mastery of HTML, CSS, and JavaScript. I’ll build a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!
+## Table of Contents
 
-### How the Game Works
+* [Instructions](#instructions)
+* [Contributing](#contributing)
 
-The game board consists of sixteen "cards" arranged in a grid. The deck is made up of eight different pairs of cards, each with different symbols on one side. The cards are arranged randomly on the grid with the symbol face down. The gameplay rules are very simple: flip over two hidden cards at a time to locate the ones that match!
+## Instructions
 
-Each turn:
+The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
 
-* The player flips one card over to reveal its underlying symbol.
-* The player then turns over a second card, trying to find the corresponding card with the same symbol.
-* If the cards match, both cards stay flipped over.
-* If the cards do not match, both cards are flipped face down.
+To get started, open `js/app.js` and start building out the app's functionality
 
-The game ends once all cards have been correctly matched.
+For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-### Game Functionality
+## Contributing
 
-The real-life game, players flip over cards to locate the pairs that match. The goal is to recreate this effect in my project. There are a couple of interactions that I'll need to handle:
+This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-* Flipping cards
-* What happens when cards match
-* What happens when cards do not match
-* When the game finishes
-
-### What Will I Learn?
-
-The memory game presents the first opportunity to fully combine my skills in HTML, CSS, and JavaScript into a large project. Aside from solidifying my skills with these three technologies, I'll discover how best to combine them in a complex application.
-
-The following are just some of the questions that I'll experience along the way:
-
-* What's the ideal workflow?
-* How many files do I need?
-* Do I modify the HTML first or the CSS?
-* How many JavaScript functions do I need?
-* Should my function be this many lines of code?
-
-There's no one right answer to each question. While building this project, working with mentors, and getting feedback from the project reviewer I'll develop answers to these questions.
+For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
