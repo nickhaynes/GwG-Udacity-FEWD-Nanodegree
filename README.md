@@ -1,7 +1,12 @@
 ## Grow with Google/Udacity--Front End Web Developer Nanodegree Program
 
-
 Projects and quizzes undertaken as part of the front-end web developer nanodegree program in the Udacity/Grow With Google Front-End Web Development Scholarship Program
+
+[Description](#description)  
+[Course Overview](#course-overview)  
+[Area 1: Web Foundations](#area-1-web-foundations)  
+[Area 2: Web Programming with JavaScript](#area-2-web-programming-with-javascript)  
+_Areas 3-5 to be completed_
 
 ### Description
 In January 2018, I was among 15,000 individuals selected for Round 1 of the Grow with Google Front-End Web Developer Scholarship Track offered by Udacity. In Round 1, scholarship participants learn the basics of web development over 3 months, including HTML, CSS, JavaScript, and jQuery.
