@@ -1,8 +1,24 @@
 /*
  * Create a list that holds all of your cards
  */
+var cards = ['fa-diamond', 'fa-diamond',
+             'fa-bolt', 'fa-bolt',
+             'fa-anchor', 'fa-anchor',
+             'fa-bomb', 'fa-bomb',
+             'fa-leaf', 'fa-leaf',
+             'fa-cube', 'fa-cube',
+             'fa-paper-plane-o', 'fa-paper-plane-o',
+             'fa-bicycle', 'fa-bicycle'
+            ];
 
+/*
+ * Function to render cards
+ */
 
+function createCard(card) {
+    return cardList =`<li class="card" data-type="${card}"><i class="fa ${card}"></i></li>`;
+}; 
+            
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
@@ -11,6 +27,7 @@
  */
 
 // Shuffle function from http://stackoverflow.com/a/2450976
+
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -23,8 +40,19 @@ function shuffle(array) {
     }
 
     return array;
-}
+};
 
+function renderDeck() {
+    let deck = document.querySelector('.deck');
+    shuffle(cards);
+    let cardHTML = cards.map(function(card) {
+        return createCard(card);
+    });
+    deck.innerHTML = cardHTML.join('');
+    console.log(deck.innerHTML);
+};
+
+renderDeck();
 
 /*
  * set up the event listener for a card. If a card is clicked:
@@ -42,23 +70,25 @@ function shuffle(array) {
 
  var allCards = document.querySelectorAll('.card');
  var openCards = [];
+ var firstCard = '';
+ var matchCard = '';
 
  allCards.forEach(function(card) {
     card.addEventListener('click', function(evt) {
-        
-        if (openCards.length >= 1) {
-            openCards.push(card);
+        openCards.push(card);
+        if (openCards.length === 2) {
+
+
+
             card.classList.add('open', 'show');
             setTimeout(function() {
                 openCards.forEach(function(card) {
                     card.classList.remove('open', 'show');
+                    openCards = [];
                 });
             }, 1500);
-            console.log("this is the if");
         } else {
-            openCards.push(card);
             card.classList.add('open', 'show');
-            console.log("this is the else");
     };
  });
  });
