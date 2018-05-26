@@ -41,10 +41,28 @@ function shuffle(array) {
  // event listener to click and show:
 
  var allCards = document.querySelectorAll('.card');
+ var openCards = [];
 
  allCards.forEach(function(card) {
     card.addEventListener('click', function(evt) {
-        evt.preventDefault;
-        card.classList.add('open', 'show');
-    });
+        
+        if (openCards.length >= 1) {
+            openCards.push(card);
+            card.classList.add('open', 'show');
+            setTimeout(function() {
+                openCards.forEach(function(card) {
+                    card.classList.remove('open', 'show');
+                });
+            }, 1500);
+            console.log("this is the if");
+        } else {
+            openCards.push(card);
+            card.classList.add('open', 'show');
+            console.log("this is the else");
+    };
  });
+ });
+ // event listener to match or not
+
+
+
