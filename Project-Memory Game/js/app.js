@@ -73,10 +73,15 @@ renderDeck();
  var firstCard = '0';
  var storedCard = '';
  var matchCard = '1';
+ var mCounter = '3';
+ var stars = document.querySelectorAll('.fa-star');
 
  allCards.forEach(function(card) {
     card.addEventListener('click', function(evt) {
         openCards.push(card);
+        
+        //storing match attributes
+        
         if (openCards.length === 1) {
             firstCard = card.dataset.type;
             console.log(firstCard);
@@ -84,6 +89,9 @@ renderDeck();
             matchCard = card.dataset.type;
             console.log(matchCard);
         };
+        
+        //checking for a match
+        
         if (openCards.length === 2) {
             card.classList.add('open', 'show');
             if (firstCard === matchCard) {
@@ -93,19 +101,23 @@ renderDeck();
                 openCards[1].classList.remove('open', 'show');
                 openCards=[];
             } else {
+                //hide the cards                
                 setTimeout(function() {
                     openCards.forEach(function(card) {
                         card.classList.remove('open', 'show');
                         openCards = [];
                     });
                 }, 1500);
+                //take away a move
+                stars[0].classList.remove('fa-star');
+                mCounter = mCounter - 1;
+                console.log(mCounter + " moves left!");
             }            
         } else {
             card.classList.add('open', 'show');
     };
  });
  });
- // event listener to match or not
 
 
 
