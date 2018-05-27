@@ -11,6 +11,8 @@ var cards = ['fa-diamond', 'fa-diamond',
              'fa-bicycle', 'fa-bicycle'
             ];
 
+var mCounter = 3;
+            
 /*
  * Function to render cards
  */
@@ -18,6 +20,15 @@ var cards = ['fa-diamond', 'fa-diamond',
 function createCard(card) {
     return cardList =`<li class="card" data-type="${card}"><i class="fa ${card}"></i></li>`;
 }; 
+
+function moveCounter(m) {
+    let moveWords = document.querySelector('.moves');
+    let moveCount =m +` Moves`;
+    moveWords.innerHTML = moveCount;
+    console.log(moveWords.innerHTML);
+};
+
+moveCounter(mCounter);
             
 /*
  * Display the cards on the page
@@ -73,8 +84,9 @@ renderDeck();
  var firstCard = '0';
  var storedCard = '';
  var matchCard = '1';
- var mCounter = '3';
+ var i=0;
  var stars = document.querySelectorAll('.fa-star');
+ var restart = document.querySelector('.restart');
 
  allCards.forEach(function(card) {
     card.addEventListener('click', function(evt) {
@@ -109,15 +121,30 @@ renderDeck();
                     });
                 }, 1500);
                 //take away a move
-                stars[0].classList.remove('fa-star');
+                stars[i].classList.remove('fa-star');
                 mCounter = mCounter - 1;
+                moveCounter(mCounter);
+                i=i+1;
                 console.log(mCounter + " moves left!");
+                //if no moves left, reset the game
+                if (mCounter === 0) {
+                    setTimeout(function() {
+                        window.location.reload();
+                        }, 1500);
+                };
             }            
         } else {
             card.classList.add('open', 'show');
     };
  });
  });
+
+ restart.addEventListener('click', function(evt) {
+     evt.preventDefault;
+     window.location.reload();
+ })
+
+
 
 
 
