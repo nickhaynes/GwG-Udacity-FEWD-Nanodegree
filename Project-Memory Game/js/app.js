@@ -11,7 +11,8 @@ var cards = ['fa-diamond', 'fa-diamond',
              'fa-bicycle', 'fa-bicycle'
             ];
 
-var mCounter = 3;
+var mCounter = 0;
+var wCounter = 0;
             
 /*
  * Function to render cards
@@ -21,6 +22,24 @@ function createCard(card) {
     return cardList =`<li class="card" data-type="${card}"><i class="fa ${card}"></i></li>`;
 }; 
 
+/*
+ * Star Rating
+ */
+
+function starRating (s) {
+    let starCount = document.querySelector('.stars');
+    if (wCounter === 4) {
+        stars[i].classList.remove('fa-star');
+        i = 1;
+    } else if (wCounter === 8) {
+        stars[i].classList.remove('fa-star');
+    };
+};
+
+/*
+ * Move Counter
+ */
+
 function moveCounter(m) {
     let moveWords = document.querySelector('.moves');
     let moveCount =m +` Moves`;
@@ -29,6 +48,8 @@ function moveCounter(m) {
 };
 
 moveCounter(mCounter);
+
+
             
 /*
  * Display the cards on the page
@@ -65,14 +86,43 @@ function renderDeck() {
 
 renderDeck();
 
+function matchMade() {
+    openCards[0].classList.add('match');
+    openCards[0].classList.remove('open', 'show');
+    openCards[1].classList.add('match');
+    openCards[1].classList.remove('open', 'show');
+    openCards=[];
+    mCounter = mCounter + 1;
+    moveCounter(mCounter);
+    console.log("The mCounter is " + mCounter);
+    console.log("The wCounter is " + wCounter);
+};
+
+function matchNotMade() {
+    setTimeout(function() {
+        openCards.forEach(function(card) {
+            card.classList.remove('open', 'show');
+            openCards = [];
+        });
+    }, 1500);
+    //take away a move
+    mCounter = mCounter + 1;
+    wCounter = wCounter + 1;
+    moveCounter(mCounter);
+    starRating(wCounter);
+    
+    console.log("The mCounter is " + mCounter);
+    console.log("The wCounter is " + wCounter);
+};
+
 /*
  * set up the event listener for a card. If a card is clicked:
  *  - display the card's symbol (put this functionality in another function that you call from this one)
  *  - add the card to a *list* of "open" cards (put this functionality in another function that you call from this one)
  *  - if the list already has another card, check to see if the two cards match
- *    + if the cards do match, lock the cards in the open position (put this functionality in another function that you call from this one)
- *    + if the cards do not match, remove the cards from the list and hide the card's symbol (put this functionality in another function that you call from this one)
- *    + increment the move counter and display it on the page (put this functionality in another function that you call from this one)
+ *  DONE  + if the cards do match, lock the cards in the open position (put this functionality in another function that you call from this one)
+ *  DONE  + if the cards do not match, remove the cards from the list and hide the card's symbol (put this functionality in another function that you call from this one)
+ *  DONE  + increment the move counter and display it on the page (put this functionality in another function that you call from this one)
  *    + if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
  */
 
@@ -87,6 +137,7 @@ renderDeck();
  var i=0;
  var stars = document.querySelectorAll('.fa-star');
  var restart = document.querySelector('.restart');
+
 
  allCards.forEach(function(card) {
     card.addEventListener('click', function(evt) {
@@ -107,31 +158,9 @@ renderDeck();
         if (openCards.length === 2) {
             card.classList.add('open', 'show');
             if (firstCard === matchCard) {
-                openCards[0].classList.add('match');
-                openCards[0].classList.remove('open', 'show');
-                openCards[1].classList.add('match');
-                openCards[1].classList.remove('open', 'show');
-                openCards=[];
+                matchMade();
             } else {
-                //hide the cards                
-                setTimeout(function() {
-                    openCards.forEach(function(card) {
-                        card.classList.remove('open', 'show');
-                        openCards = [];
-                    });
-                }, 1500);
-                //take away a move
-                stars[i].classList.remove('fa-star');
-                mCounter = mCounter - 1;
-                moveCounter(mCounter);
-                i=i+1;
-                console.log(mCounter + " moves left!");
-                //if no moves left, reset the game
-                if (mCounter === 0) {
-                    setTimeout(function() {
-                        window.location.reload();
-                        }, 1500);
-                };
+                matchNotMade();
             }            
         } else {
             card.classList.add('open', 'show');
@@ -139,10 +168,14 @@ renderDeck();
  });
  });
 
- restart.addEventListener('click', function(evt) {
-     evt.preventDefault;
-     window.location.reload();
- })
+ /*
+ * Restart Button
+ */
+
+restart.addEventListener('click', function(evt) {
+    evt.preventDefault;
+    window.location.reload();
+})
 
 
 
