@@ -70,23 +70,36 @@ renderDeck();
 
  var allCards = document.querySelectorAll('.card');
  var openCards = [];
- var firstCard = '';
- var matchCard = '';
+ var firstCard = '0';
+ var storedCard = '';
+ var matchCard = '1';
 
  allCards.forEach(function(card) {
     card.addEventListener('click', function(evt) {
         openCards.push(card);
+        if (openCards.length === 1) {
+            firstCard = card.dataset.type;
+            console.log(firstCard);
+        } else if (openCards.length === 2) {
+            matchCard = card.dataset.type;
+            console.log(matchCard);
+        };
         if (openCards.length === 2) {
-
-
-
             card.classList.add('open', 'show');
-            setTimeout(function() {
-                openCards.forEach(function(card) {
-                    card.classList.remove('open', 'show');
-                    openCards = [];
-                });
-            }, 1500);
+            if (firstCard === matchCard) {
+                openCards[0].classList.add('match');
+                openCards[0].classList.remove('open', 'show');
+                openCards[1].classList.add('match');
+                openCards[1].classList.remove('open', 'show');
+                openCards=[];
+            } else {
+                setTimeout(function() {
+                    openCards.forEach(function(card) {
+                        card.classList.remove('open', 'show');
+                        openCards = [];
+                    });
+                }, 1500);
+            }            
         } else {
             card.classList.add('open', 'show');
     };
