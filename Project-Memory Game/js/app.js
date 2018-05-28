@@ -49,7 +49,30 @@ function moveCounter(m) {
 
 moveCounter(mCounter);
 
+/*
+ * Timer
+ */
+let seconds = 00;
+let minutes = 0;
+const timer = document.querySelector('.timer');
+let clock;
 
+function runTimer() {
+    console.log("The Timer Is Supposed to Run!");
+    clock = setInterval( function() {
+        seconds++;
+        if (seconds == 60) {
+            minutes++;
+            seconds = 0;
+        };
+        if (seconds < 10) {
+            timer.innerHTML = `Time Elapsed: ${minutes}: 0${seconds}`;
+        } else {
+            timer.innerHTML = `Time Elapsed: ${minutes}: ${seconds}`;
+        };        
+    }, 1000);
+    console.log("if the timer doesn't run, the computer will get thrown!");
+};
             
 /*
  * Display the cards on the page
@@ -85,12 +108,14 @@ function renderDeck() {
 };
 
 renderDeck();
+runTimer();
 
 function matchMade() {
     openCards[0].classList.add('match');
     openCards[0].classList.remove('open', 'show');
     openCards[1].classList.add('match');
     openCards[1].classList.remove('open', 'show');
+    matchedCards.push(openCards);
     openCards=[];
     mCounter = mCounter + 1;
     moveCounter(mCounter);
@@ -105,7 +130,6 @@ function matchNotMade() {
             openCards = [];
         });
     }, 1500);
-    //take away a move
     mCounter = mCounter + 1;
     wCounter = wCounter + 1;
     moveCounter(mCounter);
@@ -137,6 +161,7 @@ function matchNotMade() {
  var i=0;
  var stars = document.querySelectorAll('.fa-star');
  var restart = document.querySelector('.restart');
+ var matchedCards = [];
 
 
  allCards.forEach(function(card) {
