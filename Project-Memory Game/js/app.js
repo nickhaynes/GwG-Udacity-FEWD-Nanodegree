@@ -31,21 +31,15 @@ function starRating (s) {
     let starCount = document.querySelector('.stars');
     let renderStar = `<li><i class="fa fa-star"></i></li>`;
     window.onload=function() {
-        starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
+        starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar}`;
     };
-    if (mCounter <= 14) {
-        starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
-        finalStars = `${renderStar} ${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
-    } else if (mCounter == 15 || mCounter == 16) {
-        starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
-        finalStars = `${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
-    } else if (mCounter == 17 || mCounter == 18) {
+    if (mCounter <= 16) {
         starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar}`;
         finalStars = `${renderStar} ${renderStar} ${renderStar}`;
-    } else if (mCounter == 18 || mCounter == 19) {
+    } else if (mCounter > 17 || mCounter <= 20) {
         starCount.innerHTML = `${renderStar} ${renderStar}`;
         finalStars = `${renderStar} ${renderStar}`;
-    } else if (mCounter >=20) {
+    } else if (mCounter >= 21) {
         starCount.innerHTML = `${renderStar}`;
         finalStars = `${renderStar}`;
     } 
@@ -147,8 +141,16 @@ function congratulations() {
     console.log("CONGRATS!");
  };
 
+ let timerClick=0;
+
 renderDeck();
-runTimer();
+window.addEventListener("click", function(evt) {
+    evt.preventDefault;
+    if (timerClick === 0) {
+        runTimer();
+        timerClick = 1;
+    };
+});
 starRating();
 
 function matchMade() {
@@ -169,12 +171,18 @@ function matchNotMade() {
         card.classList.remove('open');
         card.classList.add('no-match');
     })
+    allCards.forEach(function(card) {
+        card.style.pointerEvents = "none";
+    })
     setTimeout(function() {
         openCards.forEach(function(card) {
             card.classList.remove('no-match', 'show');
             openCards = [];
         });
-    }, 1500);
+        allCards.forEach(function(card) {
+            card.style.pointerEvents = "auto";
+        })
+    }, 1250);
     mCounter = mCounter + 1;
     moveCounter(mCounter);
     starRating();    
@@ -236,6 +244,16 @@ function matchNotMade() {
             card.classList.add('open', 'show');
     };
  });
+ });
+
+ window.addEventListener("click", function(evt) {
+     evt.preventDefault;
+     if (openCards.length === 2) {
+         console.log("I'm trying over here!");
+         document.getElementsByClassName('.card').style.pointerEvents = "none";
+     } else {
+         document.getElementsByClassName('.card').style.pointerEvents = "auto";
+     }
  });
 
 /*

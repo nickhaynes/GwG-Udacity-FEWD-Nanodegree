@@ -1,5 +1,7 @@
 # Memory Game Project
 
+Remember the memory games of old?  Here it is, online and ready to go!
+
 ## Table of Contents
 
 * [Instructions](#instructions)
@@ -7,14 +9,15 @@
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+On first click, the game begins!  Try to use your memory to the best of your ability, to complete the game in the fewest moves possible.  While a timer does show, it does not affect your score in any way.
 
-To get started, open `js/app.js` and start building out the app's functionality
+Your score is based on the number of moves it takes you to complete the game.  
+*Less than 16 moves*-Congratulations, your memory is amazing, and you get 3 stars!
+*17 to 20 moves*-Pretty good, you made it in a good timeframe, so you get 2 stars!
+*21 or more moves*-I'm sure you have some pretty good traits besides memory, so here's a star for trying!
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+When you complete the game, a popup window will appear (modal to the techies) and let you know how well you did, and even give you the option to play again.  How nice is that?!?!?
 
-## Contributing
+## Dependencies
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+This game was coded in good, old-fashioned, bland vanilla JavaScript, but updated for ES6.  There is no jQuery, React, or any other frameworks utilized.  The only assets borrowed were the ones given by Udacity--that is, the basic layout for a non-responsive grid and cards, static, no dynamic rendering, and the fonts linked by FontAwesome and Coda.

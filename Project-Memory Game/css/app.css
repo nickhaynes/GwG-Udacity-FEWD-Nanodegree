@@ -36,10 +36,10 @@ h1 {
 /*
  * Styles for the deck of cards
  */
-
 .deck {
-    width: 660px;
-    min-height: 680px;
+    width: 90%;
+    padding-top: 100%;
+    max-width: 660px;
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
     padding: 32px;
     border-radius: 10px;
@@ -52,8 +52,13 @@ h1 {
 }
 
 .deck .card {
-    height: 125px;
-    width: 125px;
+    width: 20%;
+    padding-top: 20%;
+    max-height: 125px;
+    max-width: 125px;
+    min-width: 40px;
+    min-height: 40px;
+    margin: 2.5%;
     background: #2e3d49;
     font-size: 0;
     color: #ffffff;
@@ -85,14 +90,15 @@ h1 {
     background: #ff000f;
 }
 
+
 /*
  * Styles for the Score Panel
  */
 
 .score-panel {
     text-align: left;
-    width: 545px;
     margin-bottom: 10px;
+    min-width: 300px;
 }
 
 .score-panel .stars {
@@ -113,7 +119,11 @@ h1 {
 }
 
 .score-panel .moves {
-    margin-right: 115px;
+    margin-right: 25px;
+}
+
+.score-panel .timer {
+    margin-right: 25px;
 }
 
 /*
