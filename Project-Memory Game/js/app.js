@@ -26,14 +26,30 @@ function createCard(card) {
  * Star Rating
  */
 
+let finalStars;
+
 function starRating (s) {
     let starCount = document.querySelector('.stars');
-    if (wCounter === 4) {
-        stars[i].classList.remove('fa-star');
-        i = 1;
-    } else if (wCounter === 8) {
-        stars[i].classList.remove('fa-star');
+    let renderStar = `<li><i class="fa fa-star"></i></li>`;
+    window.onload=function() {
+        starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
     };
+    if (mCounter <= 14) {
+        starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
+        finalStars = `${renderStar} ${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
+    } else if (mCounter == 15 || mCounter == 16) {
+        starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
+        finalStars = 4;
+    } else if (mCounter == 17 || mCounter == 18) {
+        starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar}`;
+        finalStars = 3;
+    } else if (mCounter == 18 || mCounter == 19) {
+        starCount.innerHTML = `${renderStar} ${renderStar}`;
+        finalStars = 2;
+    } else if (mCounter >=20) {
+        starCount.innerHTML = `${renderStar}`;
+        finalStars = 1;
+    } 
 };
 
 /*
@@ -58,7 +74,6 @@ const timer = document.querySelector('.timer');
 let clock;
 
 function runTimer() {
-    console.log("The Timer Is Supposed to Run!");
     clock = setInterval( function() {
         seconds++;
         if (seconds == 60) {
@@ -71,7 +86,6 @@ function runTimer() {
             timer.innerHTML = `Time Elapsed: ${minutes}: ${seconds}`;
         };        
     }, 1000);
-    console.log("if the timer doesn't run, the computer will get thrown!");
 };
             
 /*
@@ -107,8 +121,36 @@ function renderDeck() {
     console.log(deck.innerHTML);
 };
 
+/*
+ * Final Window
+ */
+
+const modal = document.querySelector('.modal');
+let modalText;
+
+
+function congratulations() {
+    seconds = seconds;
+    minutes = minutes;
+    clearInterval(clock);
+    modalText = `
+    <div class="modal-content">
+        <h2>Congratulations!</h2>
+        <p>You completed the Matching Game in ${mCounter} moves and ${minutes} minutes, ${seconds} seconds.</p>
+        <p>You earned:</p>
+        <center><section class="score-panel"><center><ul class="stars">${finalStars}</ul></center></section></center>
+        <p>Care to play again?</p>
+        <span class="play-again"><button onclick="window.location.reload()">Play again?</button>
+    </div>
+    `
+    modal.style.display = "block";
+    modal.innerHTML = `${modalText}`;
+    console.log("CONGRATS!");
+ };
+
 renderDeck();
 runTimer();
+starRating();
 
 function matchMade() {
     openCards[0].classList.add('match');
@@ -119,6 +161,7 @@ function matchMade() {
     openCards=[];
     mCounter = mCounter + 1;
     moveCounter(mCounter);
+    starRating();
     console.log("The mCounter is " + mCounter);
     console.log("The wCounter is " + wCounter);
 };
@@ -133,8 +176,7 @@ function matchNotMade() {
     mCounter = mCounter + 1;
     wCounter = wCounter + 1;
     moveCounter(mCounter);
-    starRating(wCounter);
-    
+    starRating();    
     console.log("The mCounter is " + mCounter);
     console.log("The wCounter is " + wCounter);
 };
@@ -184,6 +226,9 @@ function matchNotMade() {
             card.classList.add('open', 'show');
             if (firstCard === matchCard) {
                 matchMade();
+                if (matchedCards.length===8) {
+                    congratulations();
+                };
             } else {
                 matchNotMade();
             }            
@@ -193,7 +238,11 @@ function matchNotMade() {
  });
  });
 
- /*
+
+
+ 
+
+/*
  * Restart Button
  */
 
