@@ -6,7 +6,8 @@ Projects and quizzes undertaken as part of the front-end web developer nanodegre
 [Course Overview](#course-overview)  
 [Area 1: Web Foundations](#area-1-web-foundations)  
 [Area 2: Web Programming with JavaScript](#area-2-web-programming-with-javascript)  
-_Areas 3-5 to be completed_
+[Area 3: Exploring JS - Objects, Tools, and Testing](#area-3-exploring-js---objects-tools-and-testing)  
+_Areas 4-5 to be completed_
 
 ### Description
 In January 2018, I was among 15,000 individuals selected for Round 1 of the [Grow with Google](https://grow.google) Front-End Web Developer Scholarship Track offered by [Udacity](https://www.udacity.com). In Round 1, scholarship participants learn the basics of web development over 3 months, including HTML, CSS, JavaScript, and jQuery.
@@ -17,13 +18,10 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 **_Course Curriculum Areas_**
 
 1. Web Foundations--_Completed May 8, 2018_
-2. Web Programming with JavaScript--_Started May 12, 2018_
+2. Web Programming with JavaScript--_Completed May 28, 2018_
 3. Exploring JS - Objects, Tools, and Testing
 4. Front-End Applications
 5. Building with React
-
-
-
 
 #### _Area 1: Web Foundations_
 
@@ -77,4 +75,32 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    21    | Working with Browser Events|  Completed  | May 22, 2018         |
 |    22    | Lab: Pixel Art Maker  	    |  Completed  | May 23, 2018         |
 |    23    | Performance                |  Completed  | May 23, 2018         |
-| Project  | Memory Game          	    |_In Progress_| _In Progress_        |
+| Project  | Memory Game          	    |  Completed  | May 28, 2018         |
+
+#### _Area 3: Exploring JS - Objects, Tools, and Testing_
+
+|  Lesson  |          Subject	          |   Status    | Date Completed       |
+|:--------:|:---------------------------:|:-----------:|:--------------------:|
+|    1     | Accessibility Overview	    |_In Progress_| _In Progress_        |
+|    2     | Focus                	    |             |                      |
+|    3     | Semantics Basics     	    |             |                      |
+|    4     | Navigating Content   	    |             |                      |
+|    5     | ARIA  	                    |             |                      |
+|    6     | STyle                	    |             |                      |
+|    7     | Objects in Depth     	    |             |                      |
+|    8     | Functions at Runtime  	    |             |                      |
+|    9     | Classes and Objects  	    |             |                      |
+|    10    | Functions            	    |             |                      |
+|    11    | Built-ins            	    |             |                      |
+|    12    | Professional Developer-fu  |             |                      |
+|  Project | Classic Arcade Game Clone  |             |                      |
+|    14    | Introducing Web Tooling and Automation|             |                      |
+|    15    | Productive Editing   	    |             |                      |
+|    16    | Powerful Builds      	    |             |                      |
+|    17    | Expressive Live Editing    |             |                      |
+|    18    | How to Prevent Disasters   |             |                      |
+|    19    | Awesome Optimizations 	    |             |                      |
+|    20    | Web Tooling and Automation Conclusion|             |                      |
+|    21    | Rethinking Testing    	    |             |                      |
+|    22    | Writing Test Suites  	    |             |                      |
+|  Project | Feed Reader Testing  	    |             |                      |
