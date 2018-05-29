@@ -143,9 +143,11 @@ h1 {
 }
 
 .play-again {
-    color: #aaa;
+    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+    color: #fefefe;
+    padding: 10px 20px;
     bottom: 0;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
 }
 

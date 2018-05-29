@@ -139,7 +139,7 @@ function congratulations() {
         <p>You earned:</p>
         <center><section class="score-panel"><center><ul class="stars">${finalStars}</ul></center></section></center>
         <p>Care to play again?</p>
-        <span class="play-again"><button onclick="window.location.reload()">Play again?</button>
+        <span><button class="play-again" onclick="window.location.reload()">Play again?</button>
     </div>
     `
     modal.style.display = "block";
@@ -175,7 +175,6 @@ function matchNotMade() {
             openCards = [];
         });
     }, 1500);
-
     mCounter = mCounter + 1;
     moveCounter(mCounter);
     starRating();    
