@@ -1,7 +1,7 @@
 /*
  * Create a list that holds all of your cards
  */
-var cards = ['fa-diamond', 'fa-diamond',
+const cards = ['fa-diamond', 'fa-diamond',
              'fa-bolt', 'fa-bolt',
              'fa-anchor', 'fa-anchor',
              'fa-bomb', 'fa-bomb',
@@ -11,7 +11,7 @@ var cards = ['fa-diamond', 'fa-diamond',
              'fa-bicycle', 'fa-bicycle'
             ];
 
-var mCounter = 0;
+let mCounter = 0;
 
 /*
  * Function to render cards
@@ -97,7 +97,7 @@ function runTimer() {
 // Shuffle function from http://stackoverflow.com/a/2450976
 
 function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
+    let currentIndex = array.length, temporaryValue, randomIndex;
 
     while (currentIndex !== 0) {
         randomIndex = Math.floor(Math.random() * currentIndex);
@@ -196,15 +196,15 @@ function matchNotMade() {
 
  // event listener to click and show:
 
- var allCards = document.querySelectorAll('.card');
- var openCards = [];
- var firstCard = '0';
- var storedCard = '';
- var matchCard = '1';
- var i=0;
- var stars = document.querySelectorAll('.fa-star');
- var restart = document.querySelector('.restart');
- var matchedCards = [];
+ const allCards = document.querySelectorAll('.card');
+ let openCards = [];
+ let firstCard = '0';
+ let storedCard = '';
+ let matchCard = '1';
+ let i=0;
+ const stars = document.querySelectorAll('.fa-star');
+ const restart = document.querySelector('.restart');
+ let matchedCards = [];
 
 
  allCards.forEach(function(card) {
