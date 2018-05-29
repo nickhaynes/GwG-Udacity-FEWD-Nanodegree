@@ -12,8 +12,7 @@ var cards = ['fa-diamond', 'fa-diamond',
             ];
 
 var mCounter = 0;
-var wCounter = 0;
-            
+
 /*
  * Function to render cards
  */
@@ -39,16 +38,16 @@ function starRating (s) {
         finalStars = `${renderStar} ${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
     } else if (mCounter == 15 || mCounter == 16) {
         starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
-        finalStars = 4;
+        finalStars = `${renderStar} ${renderStar} ${renderStar} ${renderStar}`;
     } else if (mCounter == 17 || mCounter == 18) {
         starCount.innerHTML = `${renderStar} ${renderStar} ${renderStar}`;
-        finalStars = 3;
+        finalStars = `${renderStar} ${renderStar} ${renderStar}`;
     } else if (mCounter == 18 || mCounter == 19) {
         starCount.innerHTML = `${renderStar} ${renderStar}`;
-        finalStars = 2;
+        finalStars = `${renderStar} ${renderStar}`;
     } else if (mCounter >=20) {
         starCount.innerHTML = `${renderStar}`;
-        finalStars = 1;
+        finalStars = `${renderStar}`;
     } 
 };
 
@@ -163,22 +162,24 @@ function matchMade() {
     moveCounter(mCounter);
     starRating();
     console.log("The mCounter is " + mCounter);
-    console.log("The wCounter is " + wCounter);
 };
 
 function matchNotMade() {
+    openCards.forEach(function(card) {
+        card.classList.remove('open');
+        card.classList.add('no-match');
+    })
     setTimeout(function() {
         openCards.forEach(function(card) {
-            card.classList.remove('open', 'show');
+            card.classList.remove('no-match', 'show');
             openCards = [];
         });
     }, 1500);
+
     mCounter = mCounter + 1;
-    wCounter = wCounter + 1;
     moveCounter(mCounter);
     starRating();    
     console.log("The mCounter is " + mCounter);
-    console.log("The wCounter is " + wCounter);
 };
 
 /*
@@ -238,10 +239,6 @@ function matchNotMade() {
  });
  });
 
-
-
- 
-
 /*
  * Restart Button
  */
@@ -250,8 +247,3 @@ restart.addEventListener('click', function(evt) {
     evt.preventDefault;
     window.location.reload();
 })
-
-
-
-
-
