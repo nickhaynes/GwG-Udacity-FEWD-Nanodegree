@@ -81,8 +81,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 
 |  Lesson  |          Subject	          |   Status    | Date Completed       |
 |:--------:|:---------------------------:|:-----------:|:--------------------:|
-|    1     | Accessibility Overview	    |_In Progress_| _In Progress_        |
-|    2     | Focus                	    |             |                      |
+|    1     | Accessibility Overview	    |  Completed  | May 30, 2018         |
+|    2     | Focus                	    |_In Progress_| _In Progress_        |
 |    3     | Semantics Basics     	    |             |                      |
 |    4     | Navigating Content   	    |             |                      |
 |    5     | ARIA  	                    |             |                      |
