@@ -83,9 +83,9 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |:--------:|:---------------------------:|:-----------:|:--------------------:|
 |    1     | Accessibility Overview	    |  Completed  | May 30, 2018         |
 |    2     | Focus                	    |  Completed  | May 31, 2018         |
-|    3     | Semantics Basics     	    |_In Progress_| _In Progress_        |
-|    4     | Navigating Content   	    |             |                      |
-|    5     | ARIA  	                    |             |                      |
+|    3     | Semantics Basics     	    |  Completed  | May 31, 2018         |
+|    4     | Navigating Content   	    |  Completed  | June 1, 2018         |
+|    5     | ARIA  	                    |_In Progress_| _In Progress_        |
 |    6     | STyle                	    |             |                      |
 |    7     | Objects in Depth     	    |             |                      |
 |    8     | Functions at Runtime  	    |             |                      |
