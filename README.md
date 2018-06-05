@@ -87,8 +87,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    4     | Navigating Content   	    |  Completed  | June 1, 2018         |
 |    5     | ARIA  	                    |  Completed  | June 1, 2018         |
 |    6     | Style                	    |  Completed  | June 4, 2018         |
-|    7     | Objects in Depth     	    |_In Progress_| _In Progress_        |
-|    8     | Functions at Runtime  	    |             |                      |
+|    7     | Objects in Depth     	    |  Completed  | June 5, 2018         |
+|    8     | Functions at Runtime  	    |_In Progress_| _In Progress_        |
 |    9     | Classes and Objects  	    |             |                      |
 |    10    | Functions            	    |             |                      |
 |    11    | Built-ins            	    |             |                      |
