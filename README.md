@@ -86,8 +86,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    3     | Semantics Basics     	    |  Completed  | May 31, 2018         |
 |    4     | Navigating Content   	    |  Completed  | June 1, 2018         |
 |    5     | ARIA  	                    |  Completed  | June 1, 2018         |
-|    6     | Style                	    |_In Progress_| _In Progress_        |
-|    7     | Objects in Depth     	    |             |                      |
+|    6     | Style                	    |  Completed  | June 4, 2018         |
+|    7     | Objects in Depth     	    |_In Progress_| _In Progress_        |
 |    8     | Functions at Runtime  	    |             |                      |
 |    9     | Classes and Objects  	    |             |                      |
 |    10    | Functions            	    |             |                      |
