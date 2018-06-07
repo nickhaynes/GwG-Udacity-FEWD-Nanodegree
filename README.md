@@ -88,8 +88,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    5     | ARIA  	                    |  Completed  | June 1, 2018         |
 |    6     | Style                	    |  Completed  | June 4, 2018         |
 |    7     | Objects in Depth     	    |  Completed  | June 5, 2018         |
-|    8     | Functions at Runtime  	    |_In Progress_| _In Progress_        |
-|    9     | Classes and Objects  	    |             |                      |
+|    8     | Functions at Runtime  	    |  Completed  | June 7, 2018         |
+|    9     | Classes and Objects  	    |_In Progress_| _In Progress_        |
 |    10    | Functions            	    |             |                      |
 |    11    | Built-ins            	    |             |                      |
 |    12    | Professional Developer-fu  |             |                      |
