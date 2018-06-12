@@ -92,8 +92,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    9     | Classes and Objects  	    |  Completed  | June 10, 2018        |
 |    10    | Functions            	    |  Completed  | June 11, 2018        |
 |    11    | Built-ins            	    |  Completed  | June 11, 2018        |
-|    12    | Professional Developer-fu  |_In Progress_| _In Progress_        |
-|  Project | Classic Arcade Game Clone  |             |                      |
+|    12    | Professional Developer-fu  |  Completed  | June 12, 2018        |
+|  Project | Classic Arcade Game Clone  |_In Progress_| _In Progress_        |
 |    14    | Introducing Web Tooling and Automation|             |                      |
 |    15    | Productive Editing   	    |             |                      |
 |    16    | Powerful Builds      	    |             |                      |
