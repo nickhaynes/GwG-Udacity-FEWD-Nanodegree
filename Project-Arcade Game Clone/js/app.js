@@ -65,13 +65,11 @@ Player.prototype.handleInput = function(keyPress) {
     if (keyPress == 'down') {
         player.x += player.speed -  20;
     }
-    console.log('keyPress is: ' + keyPress);
 };
 
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
-var canvas = document.getElementsByTagName('canvas');
 
 var checkCollision = function(oneEnemy) {
     if (
@@ -87,8 +85,7 @@ var checkCollision = function(oneEnemy) {
         if (player.y + 63 <= 0) {
             player.x = 202.5;
             player.y = 383;
-            console.log('Winner winner chicken dinner!');
-
+                
             ctx.fillStyle = 'white';
             ctx.fillRect(0,0,505,171);
         }
