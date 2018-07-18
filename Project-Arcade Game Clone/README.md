@@ -11,4 +11,4 @@ Don't leave the screen.  You can go side to side--that's just smart strategy--bu
 
 ## How Do I Win?
 
-Get to the river.  Then swim in the river.  Not too long, though--then it's off to find another river to swim in!
+Open the file--in this case, the index HTML file.  Count the bugs.  Time the bugs.  Run.  Get to the river.  Then swim in the river.  Not too long, though--then it's off to find another river to swim in!

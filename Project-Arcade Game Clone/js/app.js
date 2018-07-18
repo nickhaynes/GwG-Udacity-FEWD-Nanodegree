@@ -54,16 +54,16 @@ Player.prototype.render = function() {
 
 Player.prototype.handleInput = function(keyPress) {
     if (keyPress == 'left') {
-        player.x -= player.speed;
+        this.x -= this.speed;
     }
     if (keyPress == 'up') {
-        player.y -= player.speed - 20;
+        this.y -= this.speed - 20;
     }
     if (keyPress == 'right') {
-        player.x += player.speed;
+        this.x += this.speed;
     }
     if (keyPress == 'down') {
-        player.x += player.speed -  20;
+        this.x += this.speed -  20;
     }
 };
 
@@ -102,10 +102,15 @@ var checkCollision = function(oneEnemy) {
 };
 
 var allEnemies = [];
+var createEnemies = [60, 140, 220];
 var player = new Player(202.5, 383, 50);
-var enemy = new Enemy (0, Math.random() * 184 + 50, Math.random() * 256);
+var enemy;
 
-allEnemies.push(enemy);
+createEnemies.forEach(function(posY) {
+    enemy = new Enemy (0, posY, 100 + Math.floor(Math.random() * 256));
+    allEnemies.push(enemy);
+});
+
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
