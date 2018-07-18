@@ -93,9 +93,9 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    10    | Functions            	    |  Completed  | June 11, 2018        |
 |    11    | Built-ins            	    |  Completed  | June 11, 2018        |
 |    12    | Professional Developer-fu  |  Completed  | June 12, 2018        |
-|  Project | Classic Arcade Game Clone  |_In Progress_| _In Progress_        |
-|    14    | Introducing Web Tooling and Automation|             |                      |
-|    15    | Productive Editing   	    |             |                      |
+|  Project | Classic Arcade Game Clone  |  Completed  | July 17, 2018        |
+|    14    | Introducing Web Tooling and Automation|  Completed  | July 18, 2018        |
+|    15    | Productive Editing   	    |_In Progress_| _In Progress_        |
 |    16    | Powerful Builds      	    |             |                      |
 |    17    | Expressive Live Editing    |             |                      |
 |    18    | How to Prevent Disasters   |             |                      |
