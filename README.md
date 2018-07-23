@@ -96,9 +96,9 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |  Project | Classic Arcade Game Clone  |  Completed  | July 17, 2018        |
 |    14    | Introducing Web Tooling and Automation|  Completed  | July 18, 2018        |
 |    15    | Productive Editing   	    |  Completed  | July 19, 2018        |
-|    16    | Powerful Builds      	    |_In Progress_| _In Progress_        |
-|    17    | Expressive Live Editing    |             |                      |
-|    18    | How to Prevent Disasters   |             |                      |
+|    16    | Powerful Builds      	    |  Completed  | July 22, 2018        |
+|    17    | Expressive Live Editing    |  Completed  | July 22, 2018        |
+|    18    | How to Prevent Disasters   |_In Progress_| _In Progress_        |
 |    19    | Awesome Optimizations 	    |             |                      |
 |    20    | Web Tooling and Automation Conclusion|             |                      |
 |    21    | Rethinking Testing    	    |             |                      |
