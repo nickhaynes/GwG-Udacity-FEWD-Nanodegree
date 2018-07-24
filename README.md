@@ -98,8 +98,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    15    | Productive Editing   	    |  Completed  | July 19, 2018        |
 |    16    | Powerful Builds      	    |  Completed  | July 22, 2018        |
 |    17    | Expressive Live Editing    |  Completed  | July 22, 2018        |
-|    18    | How to Prevent Disasters   |_In Progress_| _In Progress_        |
-|    19    | Awesome Optimizations 	    |             |                      |
+|    18    | How to Prevent Disasters   |  Completed  | July 24, 2018        |
+|    19    | Awesome Optimizations 	    |_In Progress_| _In Progress_        |
 |    20    | Web Tooling and Automation Conclusion|             |                      |
 |    21    | Rethinking Testing    	    |             |                      |
 |    22    | Writing Test Suites  	    |             |                      |
