@@ -100,7 +100,7 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    17    | Expressive Live Editing    |  Completed  | July 22, 2018        |
 |    18    | How to Prevent Disasters   |  Completed  | July 24, 2018        |
 |    19    | Awesome Optimizations 	    |  Completed  | July 28, 2018        |
-|    20    | Web Tooling and Automation Conclusion|_In Progress_| _In Progress_        |
+|    20    | Web Tooling and Automation Conclusion|  Completed  | July 28, 2018        |
 |    21    | Rethinking Testing    	    |  Completed  | July 24, 2018        |
 |    22    | Writing Test Suites  	    |  Completed  | July 31, 2018        |
 |  Project | Feed Reader Testing  	    |_In Progress_| _In Progress_        |
