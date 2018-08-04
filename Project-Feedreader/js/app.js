@@ -32,6 +32,7 @@ function init() {
     loadFeed(0);
 }
 
+
 /* This function performs everything necessary to load a
  * feed using the Google Feed Reader API. It will then
  * perform all of the DOM operations required to display
