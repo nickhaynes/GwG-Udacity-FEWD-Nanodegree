@@ -6,7 +6,7 @@ Projects and quizzes undertaken as part of the front-end web developer nanodegre
 [Course Overview](#course-overview)  
 [Area 1: Web Foundations](#area-1-web-foundations)  
 [Area 2: Web Programming with JavaScript](#area-2-web-programming-with-javascript)  
-[Area 3: Exploring JS - Objects, Tools, and Testing](#area-3-exploring-js---objects-tools-and-testing)
+[Area 3: Exploring JS - Objects, Tools, and Testing](#area-3-exploring-js---objects-tools-and-testing)  
 [Area 4: Front-End Applications](#area-4-front-end-applications)  
 _Area 5 to be completed_
 
