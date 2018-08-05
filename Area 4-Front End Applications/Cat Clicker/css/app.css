@@ -1,4 +1,5 @@
-#catImage {
-	min-width: 500;
+#catImage img{
+	min-width: 500px;
+	max-width: 500px;
 	height: auto;
 }

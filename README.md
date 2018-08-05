@@ -103,4 +103,23 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    20    | Web Tooling and Automation Conclusion|  Completed  | July 28, 2018        |
 |    21    | Rethinking Testing    	    |  Completed  | July 24, 2018        |
 |    22    | Writing Test Suites  	    |  Completed  | July 31, 2018        |
-|  Project | Feed Reader Testing  	    |_In Progress_| _In Progress_        |
+|  Project | Feed Reader Testing  	    |  Completed  | August 4, 2018       |
+
+#### _Area 4: Front-End Applications_
+
+|  Lesson  |          Subject	          |   Status    | Date Completed       |
+|:--------:|:---------------------------:|:-----------:|:--------------------:|
+|    1     | Changing Expectations      |_In Progress_| _In Progress_        |
+|    2     | Refactoring with Separation of Concerns|             |                      |
+|    3     | Creating Promises     	    |             |                      |
+|    4     | Chaining Promises   	    |             |                      |
+|    5     | Ajax with XHR              |             |                      |
+|    6     | Ajax with jQuery      	    |             |                      |
+|    7     | Ajax with Fetch     	    |             |                      |
+|    8     | Features of Single Page Apps|             |                      |
+|    9     | Examining a Framework's Source|             |                      |
+|    10    | Angular            	    |             |                      |
+|    11    | Ember            	        |             |                      |
+|    12    | The Benefits of Offline First|             |                      |
+|    13    | Introducing the Service Worker|             |                      |
+|  Project | Restaurant Reviews App--Stage 1|             |                      |
