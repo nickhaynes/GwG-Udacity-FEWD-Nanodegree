@@ -109,8 +109,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 
 |  Lesson  |          Subject	          |   Status    | Date Completed       |
 |:--------:|:---------------------------:|:-----------:|:--------------------:|
-|    1     | Changing Expectations      |  Completed  | August 12, 2018       |
-|    2     | Refactoring with Separation of Concerns|_In Progress_| _In Progress_        |
+|    1     | Changing Expectations      |_In Progress_| _In Progress_        |
+|    2     | Refactoring with Separation of Concerns|             |                      |
 |    3     | Creating Promises     	    |             |                      |
 |    4     | Chaining Promises   	    |             |                      |
 |    5     | Ajax with XHR              |             |                      |
