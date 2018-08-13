@@ -7,7 +7,8 @@ Projects and quizzes undertaken as part of the front-end web developer nanodegre
 [Area 1: Web Foundations](#area-1-web-foundations)  
 [Area 2: Web Programming with JavaScript](#area-2-web-programming-with-javascript)  
 [Area 3: Exploring JS - Objects, Tools, and Testing](#area-3-exploring-js---objects-tools-and-testing)  
-_Areas 4-5 to be completed_
+[Area 4: Front-End Applications](#area-4-front-end-applications)  
+_Area 5 to be completed_
 
 ### Description
 In January 2018, I was among 15,000 individuals selected for Round 1 of the [Grow with Google](https://grow.google) Front-End Web Developer Scholarship Track offered by [Udacity](https://www.udacity.com). In Round 1, scholarship participants learn the basics of web development over 3 months, including HTML, CSS, JavaScript, and jQuery.
@@ -19,7 +20,7 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 
 1. Web Foundations--_Completed May 8, 2018_
 2. Web Programming with JavaScript--_Completed May 28, 2018_
-3. Exploring JS - Objects, Tools, and Testing
+3. Exploring JS - Objects, Tools, and Testing--_Completed August 4, 2018_
 4. Front-End Applications
 5. Building with React
 
