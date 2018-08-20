@@ -112,9 +112,9 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |:--------:|:---------------------------:|:-----------:|:--------------------:|
 |    1     | Changing Expectations      |  Completed  | August 12, 2018       |
 |    2     | Refactoring with Separation of Concerns|  Completed  | August 13, 2018       |
-|    3     | Creating Promises     	   |  Completed  | August 14, 2018       |
-|    4     | Chaining Promises   	    |_In Progress_| _In Progress_        |
-|    5     | Ajax with XHR              |             |                      |
+|    3     | Creating Promises     	    |  Completed  | August 14, 2018       |
+|    4     | Chaining Promises   	    |  Completed  | August 19, 2018       |
+|    5     | Ajax with XHR              |_In Progress_| _In Progress_        |
 |    6     | Ajax with jQuery      	    |             |                      |
 |    7     | Ajax with Fetch     	    |             |                      |
 |    8     | Features of Single Page Apps|             |                      |
