@@ -115,12 +115,12 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    3     | Creating Promises     	    |  Completed  | August 14, 2018       |
 |    4     | Chaining Promises   	    |  Completed  | August 19, 2018       |
 |    5     | Ajax with XHR              |  Completed  | August 21, 2018       |
-|    6     | Ajax with jQuery      	    |_In Progress_| _In Progress_        |
-|    7     | Ajax with Fetch     	    |             |                      |
-|    8     | Features of Single Page Apps|             |                      |
-|    9     | Examining a Framework's Source|             |                      |
-|    10    | Angular            	    |             |                      |
-|    11    | Ember            	        |             |                      |
-|    12    | The Benefits of Offline First|             |                      |
-|    13    | Introducing the Service Worker|             |                      |
-|  Project | Restaurant Reviews App--Stage 1|             |                      |
+|    6     | Ajax with jQuery      	    |  Completed  | August 21, 2018       |
+|    7     | Ajax with Fetch     	    |  Completed  | August 21, 2018       |
+|    8     | Features of Single Page Apps|_In Progress_| _In Progress_         |
+|    9     | Examining a Framework's Source|             |                       |
+|    10    | Angular            	    |             |                       |
+|    11    | Ember            	        |             |                       |
+|    12    | The Benefits of Offline First|             |                       |
+|    13    | Introducing the Service Worker|             |                       |
+|  Project | Restaurant Reviews App--Stage 1|             |                       |
