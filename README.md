@@ -117,8 +117,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    5     | Ajax with XHR              |  Completed  | August 21, 2018       |
 |    6     | Ajax with jQuery      	    |  Completed  | August 21, 2018       |
 |    7     | Ajax with Fetch     	    |  Completed  | August 21, 2018       |
-|    8     | Features of Single Page Apps|_In Progress_| _In Progress_         |
-|    9     | Examining a Framework's Source|             |                       |
+|    8     | Features of Single Page Apps|  Completed  | August 23, 2018       |
+|    9     | Examining a Framework's Source|_In Progress_| _In Progress_         |
 |    10    | Angular            	    |             |                       |
 |    11    | Ember            	        |             |                       |
 |    12    | The Benefits of Offline First|             |                       |
