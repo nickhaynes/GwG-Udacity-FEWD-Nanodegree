@@ -1,0 +1,6 @@
+[submodule "Area 4-Front End Applications/FEF-Quiz-Angular-Up-and-Running"]
+	path = Area 4-Front End Applications/FEF-Quiz-Angular-Up-and-Running
+	url = https://github.com/udacity/FEF-Quiz-Angular-Up-and-Running
+[submodule "Area 4-Front End Applications/Angular Items/FEF-Quiz-Angular-Up-and-Running"]
+	path = Area 4-Front End Applications/Angular Items/FEF-Quiz-Angular-Up-and-Running
+	url = https://github.com/udacity/FEF-Quiz-Angular-Up-and-Running
