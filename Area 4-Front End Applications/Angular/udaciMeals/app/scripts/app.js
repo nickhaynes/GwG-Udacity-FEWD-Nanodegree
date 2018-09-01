@@ -7,6 +7,7 @@
  * # udaciMealsApp
  *
  * Main module of the application.
+ * This is a test line.
  */
 angular
   .module('udaciMealsApp', ['ui.router'])
