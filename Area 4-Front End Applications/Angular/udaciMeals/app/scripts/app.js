@@ -24,4 +24,4 @@ angular
         templateUrl: 'views/item.html',
         controller: 'ItemCtrl as item'
       });
-  }]);
+  });
