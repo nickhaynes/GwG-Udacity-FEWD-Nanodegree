@@ -4,3 +4,15 @@
 [submodule "Area 4-Front End Applications/Angular Items/FEF-Quiz-Angular-Up-and-Running"]
 	path = Area 4-Front End Applications/Angular Items/FEF-Quiz-Angular-Up-and-Running
 	url = https://github.com/udacity/FEF-Quiz-Angular-Up-and-Running
+[submodule "Area 4-Front End Applications/Angular/FEF-Quiz-Angular-Module"]
+	path = Area 4-Front End Applications/Angular/FEF-Quiz-Angular-Module
+	url = https://github.com/udacity/FEF-Quiz-Angular-Module
+[submodule "Area 4-Front End Applications/Angular/FEF-Quiz-Angular-Bootstrap"]
+	path = Area 4-Front End Applications/Angular/FEF-Quiz-Angular-Bootstrap
+	url = https://github.com/udacity/FEF-Quiz-Angular-Bootstrap
+[submodule "Area 4-Front End Applications/Angular/Quizzes/FEF-Quiz-Angular-Controllers"]
+	path = Area 4-Front End Applications/Angular/Quizzes/FEF-Quiz-Angular-Controllers
+	url = https://github.com/udacity/FEF-Quiz-Angular-Controllers
+[submodule "Area 4-Front End Applications/Angular/Quizzes/FEF-Quiz-Angular-Directives"]
+	path = Area 4-Front End Applications/Angular/Quizzes/FEF-Quiz-Angular-Directives
+	url = https://github.com/udacity/FEF-Quiz-Angular-Directives
