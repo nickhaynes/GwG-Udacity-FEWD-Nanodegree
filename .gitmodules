@@ -16,3 +16,9 @@
 [submodule "Area 4-Front End Applications/Angular/Quizzes/FEF-Quiz-Angular-Directives"]
 	path = Area 4-Front End Applications/Angular/Quizzes/FEF-Quiz-Angular-Directives
 	url = https://github.com/udacity/FEF-Quiz-Angular-Directives
+[submodule "Area 4-Front End Applications/Angular/udaciMeals/FEF-Quiz-Angular-Services"]
+	path = Area 4-Front End Applications/Angular/udaciMeals/FEF-Quiz-Angular-Services
+	url = https://github.com/udacity/FEF-Quiz-Angular-Services
+[submodule "Area 4-Front End Applications/Angular/Quizzes/FEF-Quiz-Angular-Services"]
+	path = Area 4-Front End Applications/Angular/Quizzes/FEF-Quiz-Angular-Services
+	url = https://github.com/udacity/FEF-Quiz-Angular-Services
