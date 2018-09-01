@@ -7,10 +7,17 @@
  * # MenuCtrl
  * Controller of the controllerApp
  */
-angular.module('udaciMealsApp')
-  .controller('MenuCtrl', function () {
-    this.id = 'strawberry-pudding';
-    this.name = 'Strawberry Pudding';
-    this.img = 'strawberry-pudding.jpg';
-    this.rating = 5;
+angular.module('udaciMealsAngularApp')
+  .controller('MenuCtrl', function(foodFinder, orderManager) {
+    var vm = this;
+    
+    foodFinder.getMenu().then(
+      function(data) {
+	    _this.items = data;
+      }
+    );
+
+    this.chooseItem = function(menuCategory, menuItemName) {
+      orderManager.chooseMenuOption(menuCategory, menuItemName);
+    };
   });
