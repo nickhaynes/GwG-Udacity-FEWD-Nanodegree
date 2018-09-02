@@ -119,8 +119,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    7     | Ajax with Fetch     	    |  Completed  | August 21, 2018       |
 |    8     | Features of Single Page Apps|  Completed  | August 23, 2018       |
 |    9     | Examining a Framework's Source|  Completed  | August 27, 2018       |
-|    10    | Angular            	    |_In Progress_| _In Progress_         |
-|    11    | Ember            	        |             |                       |
+|    10    | Angular            	    |  Completed  | August 30, 2018       |
+|    11    | Ember            	        |_In Progress_| _In Progress_         |
 |    12    | The Benefits of Offline First|             |                       |
 |    13    | Introducing the Service Worker|             |                       |
 |  Project | Restaurant Reviews App--Stage 1|             |                       |
