@@ -113,14 +113,14 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    1     | Changing Expectations      |  Completed  | August 12, 2018       |
 |    2     | Refactoring with Separation of Concerns|  Completed  | August 13, 2018       |
 |    3     | Creating Promises     	    |  Completed  | August 14, 2018       |
-|    4     | Chaining Promises   	    |  Completed  | August 19, 2018       |
+|    4     | Chaining Promises   	      |  Completed  | August 19, 2018       |
 |    5     | Ajax with XHR              |  Completed  | August 21, 2018       |
 |    6     | Ajax with jQuery      	    |  Completed  | August 21, 2018       |
-|    7     | Ajax with Fetch     	    |  Completed  | August 21, 2018       |
+|    7     | Ajax with Fetch     	      |  Completed  | August 21, 2018       |
 |    8     | Features of Single Page Apps|  Completed  | August 23, 2018       |
 |    9     | Examining a Framework's Source|  Completed  | August 27, 2018       |
-|    10    | Angular            	    |  Completed  | August 30, 2018       |
-|    11    | Ember            	        |_In Progress_| _In Progress_         |
-|    12    | The Benefits of Offline First|             |                       |
+|    10    | Angular            	      |  Completed  | August 30, 2018       |
+|    11    | Ember            	        |  Completed  | September 7, 2018     |
+|    12    | The Benefits of Offline First|_In Progress_| _In Progress_         |
 |    13    | Introducing the Service Worker|             |                       |
 |  Project | Restaurant Reviews App--Stage 1|             |                       |
