@@ -122,5 +122,5 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    10    | Angular            	      |  Completed  | August 30, 2018       |
 |    11    | Ember            	        |  Completed  | September 7, 2018     |
 |    12    | The Benefits of Offline First|  Completed  | September 8, 2018     |
-|    13    | Introducing the Service Worker|_In Progress_| _In Progress_         |
-|  Project | Restaurant Reviews App--Stage 1|             |                       |
+|    13    | Introducing the Service Worker|  Completed  | September 11, 2018     |
+|  Project | Restaurant Reviews App--Stage 1|_In Progress_| _In Progress_         |
