@@ -8,7 +8,7 @@ Projects and quizzes undertaken as part of the front-end web developer nanodegre
 [Area 2: Web Programming with JavaScript](#area-2-web-programming-with-javascript)  
 [Area 3: Exploring JS - Objects, Tools, and Testing](#area-3-exploring-js---objects-tools-and-testing)  
 [Area 4: Front-End Applications](#area-4-front-end-applications)  
-_Area 5 to be completed_
+[Area 5: Building with React](#area-5-building-with-react)
 
 ### Description
 In January 2018, I was among 15,000 individuals selected for Round 1 of the [Grow with Google](https://grow.google) Front-End Web Developer Scholarship Track offered by [Udacity](https://www.udacity.com). In Round 1, scholarship participants learn the basics of web development over 3 months, including HTML, CSS, JavaScript, and jQuery.
@@ -21,7 +21,7 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 1. Web Foundations--_Completed May 8, 2018_
 2. Web Programming with JavaScript--_Completed May 28, 2018_
 3. Exploring JS - Objects, Tools, and Testing--_Completed August 4, 2018_
-4. Front-End Applications
+4. Front-End Applications--_Completed September 14, 2018_
 5. Building with React
 
 #### _Area 1: Web Foundations_
@@ -123,4 +123,19 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    11    | Ember            	        |  Completed  | September 7, 2018     |
 |    12    | The Benefits of Offline First|  Completed  | September 8, 2018     |
 |    13    | Introducing the Service Worker|  Completed  | September 11, 2018     |
-|  Project | Restaurant Reviews App--Stage 1|_In Progress_| _In Progress_         |
+|  Project | Restaurant Reviews App--Stage 1|  Completed  | September 14, 2018     |
+
+#### _Area 5: Building with React_
+
+|  Lesson  |          Subject	          |   Status    | Date Completed       |
+|:--------:|:---------------------------:|:-----------:|:--------------------:|
+|    1     | Why React?                 |_In Progress_| _In Progress_         |
+|    2     | Rendering UI with React    |             |                       |
+|    3     | State Management     	    |             |                       |
+|    4     | Render UI with External Data|             |                       |
+|    5     | Managing App Location with React Router|             |                       |
+|  Project | MyReads: A Book Tracking App|             |                       |
+|    7     | Getting Started with the APIs|             |                       |
+|    8     | Understanding API Services |             |                       |
+|    9     | Understanding the APIs in Practice|             |                       |
+|  Project | Neighborhood Map (React)   |             |                       |
