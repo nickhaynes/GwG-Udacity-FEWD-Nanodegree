@@ -133,8 +133,8 @@ On April 17th, the top 1,500 individuals who successfully completed the challeng
 |    2     | Rendering UI with React    |  Completed  | September 15, 2018    |
 |    3     | State Management     	    |  Completed  | September 17, 2018    |
 |    4     | Render UI with External Data|  Completed  | September 17, 2018    |
-|    5     | Managing App Location with React Router|_In Progress_| _In Progress_         |
-|  Project | MyReads: A Book Tracking App|             |                       |
+|    5     | Managing App Location with React Router|  Completed  | September 18, 2018    |
+|  Project | MyReads: A Book Tracking App|_In Progress_| _In Progress_         |
 |    7     | Getting Started with the APIs|             |                       |
 |    8     | Understanding API Services |             |                       |
 |    9     | Understanding the APIs in Practice|             |                       |
